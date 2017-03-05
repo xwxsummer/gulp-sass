@@ -1,0 +1,29 @@
+header{
+  background-color: $primary-color;
+  height: 70px;
+}
+.hero{
+  padding: 80px;
+  .btn{
+    width:100px;
+    height: 40px;
+    margin: 20px auto;
+    background-color: $accent-color;
+    &:hover{
+      background-color: lighten($accent-color,10%);
+      cursor:pointer;
+    }
+  }
+}
+
+.first{
+  height: 200px;
+  background-color: $primary-color;
+}
+footer{
+  height: 200px;
+  padding: 50px;
+  border-top:5px solid $accent-color;
+  margin-top: 200px;
+  background-color: #212121;
+}
